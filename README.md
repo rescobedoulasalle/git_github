@@ -2,7 +2,7 @@
 <table>
     <theader>
         <tr>
-            <td><img src="https://github.com/rescobedoulasalle/git_github/blob/main/ulasalle.png?raw=true" alt="EPIS" style="width:50%; height:auto"/></td>
+            <th><img src="https://github.com/rescobedoulasalle/git_github/blob/main/ulasalle.png?raw=true" alt="EPIS" style="width:50%; height:auto"/></th>
             <th>
                 <span style="font-weight:bold;">UNIVERSIDAD LA SALLE</span><br />
                 <span style="font-weight:bold;">FACULTAD DE INGENIERÍAS</span><br />
@@ -11,11 +11,7 @@
             </th>            
         </tr>
     </theader>
-    <tbody>
-        <tr>
-        <td colspan="2"><span style="font-weight:bold;">Formato</span>: Guía de Práctica de Laboratorio</td>
-        </tr>
-    </tbody>
+    
 </table>
 </div>
 
@@ -30,7 +26,7 @@
 <tbody>
 
 <tr><td>TÍTULO DE LA PRÁCTICA:</td><td>Vim - Git - GitHub</td></tr>
-<tr><td colspan="2">RECURSOS A UTILIZAR:
+<tr><td colspan="2">RECURSOS:
     <ul>
         <li><a href="https://git-scm.com/book/es/v2">https://git-scm.com/book/es/v2</a></li>
         <li><a href="https://guides.github.com/">https://guides.github.com/</a></li>        
@@ -40,7 +36,7 @@
 </<tr>
 <tr><td colspan="2">DOCENTES:
     <ul>
-        <li>Richart Smith Escobedo Quispe (r.escobedo@ulasalle.edu.pe)</li>
+        <li>Richart Smith Escobedo Quispe  - r.escobedo@ulasalle.edu.pe</li>
     </ul>
 </td>
 </<tr>
@@ -59,8 +55,9 @@
 [![Vim][Vim]][vim-site]
 [![Java][Java]][java-site]
 
+#
 
-## OBJETIVOS TEMAS Y COMPETENCIAS
+## OBJETIVOS Y TEMAS
 
 ### OBJETIVOS
 - Conocer el editor de texto Vim.
@@ -68,6 +65,7 @@
 
 ### TEMAS
 - Editor Vim
+- Java
 - Git
 - GitHub
 
@@ -76,58 +74,56 @@
 ### MARCO CONCEPTUAL
 
 - Editor Vim
-    - Vim es un editor de texto muy completo para programadores en consola.
+    - Vim es un editor de texto muy eficiente para programar en consola que no tiene nada que envidiar a los editores gráficos.
     
 - Instalar Vim en:
 
-    <details>
-    <summary>GNU/Linux</summary>
-    - Para instalar Vim en cualquier distribución GNU/Linux use sus mismos repositorios
-    -   ```sh
-        apt-get install vim
-        ```
-    </details>
+    - GNU/Linux
+        - Para instalar Vim en cualquier distribución GNU/Linux use sus mismos repositorios
+        - ```sh
+          apt-get install vim
+          ```
 
-	<details>
-    <summary>MS Windows</summary>
-    - Para descarga en sistemas MS Windows https://www.vim.org/download.php
-    </details>
+	- MS Windows
+        - Para descarga en sistemas MS Windows https://www.vim.org/download.php
+    
+	- MacOS
+        - Para instalar Vim en sistemas MacOS puede usar brew
+        -   ```sh
+            brew install macvim
+            ```
 
-	<details>
-    <summary>MacOS</summary>
-    - Para instalar Vim en sistemas MacOS puede usar brew
-    -   ```sh
-        brew install macvim
-        ```
-    </details>
+#
+
+- Java
+    - Java es un lenguaje de programación orientado a objetos
+    - La documentación de Java 11 se encuentra en: https://docs.oracle.com/javase/specs/jls/se11/html/index.html
+    - Un curso muy interesante en videos se puede encontrar en: https://www.youtube.com/playlist?list=PLw8RQJQ8K1yQDqPyDRzt-h8YlBj96OwMP
+
+
+#
 
 - Git
     - Git es un sistema de control de versiones creado por Linus Torvalds. Es eficiente, confiable. 
 
 - Instalar Git
 
-	<details>
-    <summary>GNU/Linux</summary>
-    - Para descarga en sistemas GNU/Linux desde https://git-scm.com/download/linux
-    -   ```sh
-        apt-get install git
-        ```
-    </details>
-
-	<details>
+	- GNU/Linux
+        - Para descarga en sistemas GNU/Linux desde https://git-scm.com/download/linux
+        -   ```sh
+            apt-get install git
+            ```
+        
+	- MS Windows
+        - Para descarga en sistemas MS Windows https://git-scm.com/download/win
     
-    <summary>MS Windows</summary>
-    - Para descarga en sistemas MS Windows https://git-scm.com/download/win
-    </details>
-
-	<details>
-    <summary>MacOS</summary>
-    - Para descarga en sistemas MacOS https://git-scm.com/download/mac
-    -   ```sh
-        brew install git
-        ```
-    </details>
-
+    - MacOS
+        - Para descarga en sistemas MacOS https://git-scm.com/download/mac
+        -   ```sh
+            brew install git
+            ```
+#
+       
 - git init
     - Crea un nuevo proyecto local, se crean archivos en el directorio oculto .git
     -   ```sh
@@ -166,13 +162,13 @@
 - git clone
     - Clona un repositorio remoto como un repositorio local, en el cual se puede hacer push
     -   ```sh
-        git clone <remote repo>
+        git clone <URL_GITHUB>
         ```
 
 - git remote
     - Persigue un repositorio remoto para hacer push.
     -   ```sh
-        git remote add origin <remote repo>
+        git remote add origin <URL_GITHUB>
         ```
 
 - git push
@@ -248,7 +244,7 @@
         git pull --rebase origin
         ```
 
-
+#
 
 ## EJERCICIO RESUELTO POR EL DOCENTE
 Primer repositorio en GitHub
@@ -291,7 +287,7 @@ Primer repositorio en GitHub
         ```
 - Asociamos el repositorio local con el repositorio remoto 
     -   ```sh
-        git remote add origin <remote repo>
+        git remote add origin <URL_GITHUB>
         ```
 
 - Actualizamos el repositorio remoto
@@ -340,9 +336,12 @@ Primer repositorio en GitHub
     -   ```sh
         git add HolaMundo.java
         git commit -m "Hola Mundo"
+        git remote <URL_GITHUB>
         git push -u origin main
         ```
-    
+
+#
+
 ## EJERCICIOS PROPUESTOS
 - Cree una cuenta de usuario en GitHub usando su correo institucional.
 - [opcional por ahora] Configure su cuenta de estudiante (https://education.github.com/pack).
@@ -356,12 +355,16 @@ Primer repositorio en GitHub
     - 5to commit - Uniendo rama "ramma-div" al "main" para obtener metodo div().
     - 6to commit - Uniendo rama "ramma-mod" al "main" para obtener metodo mod().
 
+#
+
 ## CUESTIONARIO
-- ¿Por qué Git es una herramienta importante en el curso?
-- ¿Qué conductas éticas debe promocionarse cuando se usa un Sistema de Control de Versiones?
+- ¿Por qué Git y GitHub son herramientas importantes para el curso?
+- ¿Qué conductas éticas deberían promocionarse cuando se usa un Sistema de Control de Versiones?
 - ¿Qué son los entándares de codificación?
 
-## REFERENCIAS Y BIBLIOGRÁFIA RECOMENDADAS
+#
+
+## REFERENCIAS
 - https://git-scm.com/book/es/v2
 - https://guides.github.com/
 - https://www.w3schools.com/java/default.asp
@@ -374,6 +377,13 @@ Primer repositorio en GitHub
 - Tutorial de Vim - http://www.truth.sk/vim/vimbook-OPL.pdf
 - Teclado en Vim - http://www.viemu.com/vi-vim-cheat-sheet.gif
 - Cómo Configurar VIM como VS Code - https://www.youtube.com/watch?v=XgQFzi3VkC8
+
+- Empezando el Curso de Java - https://www.youtube.com/playlist?list=PLw8RQJQ8K1yQDqPyDRzt-h8YlBj96OwMP
+- The Java® Language Specification Java SE 11 Edition - https://docs.oracle.com/javase/specs/jls/se11/html/index.html
+- The Java™ Tutorials - https://docs.oracle.com/javase/tutorial/
+- Java Course - http://www.vias.org/javacourse/wrapnt4F38D8_object_oriented_programming.html
+
+#
 
 [license]: https://img.shields.io/github/license/rescobedoulasalle/git_github?label=rescobedoulasalle
 [license-file]: https://github.com/rescobedoulasalle/git_github/blob/main/LICENSE
