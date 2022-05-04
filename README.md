@@ -48,7 +48,7 @@
 
 # Vim - Git - GitHub
 
-[![License]][license]
+[![License][license]][license-file]
 [![Downloads]][downloads]
 [![Last Commit][last-commit]][last-commit]
 
