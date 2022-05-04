@@ -52,7 +52,7 @@
 [![Downloads]][downloads][releases]
 [![Last Commit][last-commit]][last-commit]
 
-[![Debian]][Debian][debian-site]
+[![Debian][Debian]][debian-site]
 [![Git]][Git]
 [![GitHub]][GitHub]
 [![Vim]][Vim]
