@@ -32,8 +32,9 @@
 <tr><td>TÍTULO DE LA PRÁCTICA:</td><td>Vim - Git - GitHub</td></tr>
 <tr><td colspan="2">RECURSOS A UTILIZAR:
     <ul>
-        <li><a href="https://guides.github.com/">https://guides.github.com/</a></li>
         <li><a href="https://git-scm.com/book/es/v2">https://git-scm.com/book/es/v2</a></li>
+        <li><a href="https://guides.github.com/">https://guides.github.com/</a></li>        
+        <li><a href="https://www.w3schools.com/java/default.asp">https://www.w3schools.com/java/default.asp</a></li>
     </ul>
 </td>
 </<tr>
@@ -361,8 +362,9 @@ Primer repositorio en GitHub
 - ¿Qué son los entándares de codificación?
 
 ## REFERENCIAS Y BIBLIOGRÁFIA RECOMENDADAS
-- https://guides.github.com/
 - https://git-scm.com/book/es/v2
+- https://guides.github.com/
+- https://www.w3schools.com/java/default.asp
 
 - Nano vs. Emacs vs. Vim (Editor Wars!) - https://www.linuxtrainingacademy.com/nano-emacs-vim/
 - Emacs vs Vim - https://www.linuxteaching.com/article/emacs_vs_vim
@@ -395,3 +397,15 @@ Primer repositorio en GitHub
 
 [Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white
 [java-site]: https://docs.oracle.com/javase/tutorial/
+
+
+[![Debian][Debian]][debian-site]
+[![Git][Git]][git-site]
+[![GitHub][GitHub]][github-site]
+[![Vim][Vim]][vim-site]
+[![Java][Java]][java-site]
+
+[![License][license]][license-file]
+[![Downloads][downloads]][releases]
+[![Last Commit][last-commit]][releases]
+
