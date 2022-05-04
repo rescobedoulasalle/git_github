@@ -99,6 +99,20 @@
     - Java es un lenguaje de programación orientado a objetos
     - La documentación de Java 11 se encuentra en: https://docs.oracle.com/javase/specs/jls/se11/html/index.html
     - Un curso muy interesante en videos se puede encontrar en: https://www.youtube.com/playlist?list=PLw8RQJQ8K1yQDqPyDRzt-h8YlBj96OwMP
+    
+    - Instalar Java
+
+        - GNU/Linux
+            - Para descarga en sistemas GNU/Linux puede usar OpenJDK
+            -   ```sh
+                apt-get install openjdk-11-jdk
+                ```
+            
+        - MS Windows
+            - Para descarga en sistemas MS Windows https://www.oracle.com/java/technologies/downloads/
+        
+        - MacOS
+            - Para descarga en sistemas MacOS https://www.oracle.com/java/technologies/downloads/
 
 
 #
@@ -122,6 +136,7 @@
         -   ```sh
             brew install git
             ```
+
 #
        
 - git init
