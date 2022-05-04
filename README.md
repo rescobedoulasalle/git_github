@@ -13,7 +13,7 @@
     </theader>
     <tbody>
         <tr>
-        <td colspan="2"><span style="font-weight:bold;">Formato</span>: Guía de Práctica de Laboratorio <td>
+        <td colspan="2"><span style="font-weight:bold;">Formato</span>: Guía de Práctica de Laboratorio</td>
         </tr>
     </tbody>
 </table>
