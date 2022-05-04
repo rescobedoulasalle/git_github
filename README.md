@@ -48,10 +48,7 @@
 
 # Vim - Git - GitHub
 
-[![crates.io][crates.io-badge]][crates.io]
-[![Downloads][downloads-badge]][releases]
-[![License][license-badge]][license]
-[![Built with Nix][builtwithnix-badge]][builtwithnix]
+[![GitHub]]
 
 
 ## OBJETIVOS TEMAS Y COMPETENCIAS
@@ -368,3 +365,4 @@ Primer repositorio en GitHub
 - Teclado en Vim - http://www.viemu.com/vi-vim-cheat-sheet.gif
 - Cómo Configurar VIM como VS Code - https://www.youtube.com/watch?v=XgQFzi3VkC8
 
+![GitHub](https://img.shields.io/github/license/rescobedoulasalle/git_github?label=rescobedoulasalle)
