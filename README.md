@@ -48,7 +48,15 @@
 
 # Vim - Git - GitHub
 
-[![GitHub]]
+[![License]][license]
+[![Downloads]][downloads]
+[![Last Commit][last-commit]][last-commit]
+
+[![Debian]][Debian]
+[![Git]][Git]
+[![GitHub]][GitHub]
+[![Vim]][Vim]
+[![Java]][Java]
 
 
 ## OBJETIVOS TEMAS Y COMPETENCIAS
@@ -365,4 +373,16 @@ Primer repositorio en GitHub
 - Teclado en Vim - http://www.viemu.com/vi-vim-cheat-sheet.gif
 - Cómo Configurar VIM como VS Code - https://www.youtube.com/watch?v=XgQFzi3VkC8
 
-![GitHub](https://img.shields.io/github/license/rescobedoulasalle/git_github?label=rescobedoulasalle)
+[license]: https://img.shields.io/github/license/rescobedoulasalle/git_github?label=rescobedoulasalle
+[license-file]: https://github.com/rescobedoulasalle/git_github/blob/main/LICENSE
+
+[downloads]: https://img.shields.io/github/downloads/rescobedoulasalle/git_github/total?label=Downloads
+
+[last-commit]: https://img.shields.io/github/last-commit/rescobedoulasalle/git_github?label=Last%20Commit
+
+[Debian]: https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white
+[Git]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
+[GitHub]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
+
+[Vim]: https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white
+[Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white
