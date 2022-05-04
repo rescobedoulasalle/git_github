@@ -49,14 +49,14 @@
 # Vim - Git - GitHub
 
 [![License][license]][license-file]
-[![Downloads]][downloads][releases]
+[![Downloads][downloads]][releases]
 [![Last Commit][last-commit]][last-commit]
 
 [![Debian][Debian]][debian-site]
-[![Git]][Git]
-[![GitHub]][GitHub]
-[![Vim]][Vim]
-[![Java]][Java]
+[![Git][Git]][git-site]
+[![GitHub][GitHub]][github-site]
+[![Vim][Vim]][vim-site]
+[![Java][Java]][java-site]
 
 
 ## OBJETIVOS TEMAS Y COMPETENCIAS
@@ -385,7 +385,13 @@ Primer repositorio en GitHub
 [debian-site]: https://www.debian.org/index.es.html
 
 [Git]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
+[git-site]: https://git-scm.com/
+
 [GitHub]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
+[github-site]: https://github.com/
 
 [Vim]: https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white
+[vim-site]: https://www.vim.org/
+
 [Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white
+[java-site]: https://docs.oracle.com/javase/tutorial/
