@@ -377,7 +377,7 @@ Primer repositorio en GitHub
 [license-file]: https://github.com/rescobedoulasalle/git_github/blob/main/LICENSE
 
 [downloads]: https://img.shields.io/github/downloads/rescobedoulasalle/git_github/total?label=Downloads
-[releases]: https://github.com/ajeetdsouza/rescobedoulasalle/releases
+[releases]: https://github.com/rescobedoulasalle/releases
 
 [last-commit]: https://img.shields.io/github/last-commit/rescobedoulasalle/git_github?label=Last%20Commit
 
